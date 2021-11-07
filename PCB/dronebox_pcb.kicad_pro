@@ -22,40 +22,707 @@
       },
       "track_widths": [],
       "via_dimensions": []
-    }
+    },
+    "layer_presets": []
   },
   "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "kicad.kicad_pro",
+    "filename": "dronebox_pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
+        "bus_width": 12.0,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_drill": 0.4,
+        "wire_width": 6.0
       }
     ],
     "meta": {
-      "version": 0
-    }
+      "version": 2
+    },
+    "net_colors": null
   },
   "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
     "page_layout_descr_file": ""
   },
-  "sheets": [],
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_bus_thickness": 12.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "default_wire_thickness": 6.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "0a4aa6a2-4ee7-4255-8264-6f0983eaa777",
+      ""
+    ],
+    [
+      "fc76fb76-ac0b-49bd-acbc-9d9595441908",
+      "oscillator"
+    ],
+    [
+      "b5f35ed0-ff96-45ee-9c08-ffbc71358767",
+      "oscillator1"
+    ],
+    [
+      "4312a67a-8f83-41da-aa26-34465dd00b5f",
+      "oscillator2"
+    ],
+    [
+      "9fb70bcd-59f0-47b3-b2e0-50e4c556cfe0",
+      "oscillator3"
+    ],
+    [
+      "5b2c4b53-c649-447a-8760-df05a2565744",
+      "oscillator4"
+    ],
+    [
+      "a0a5f83f-01f0-4e91-94c9-4c7b0451299e",
+      "oscillator5"
+    ],
+    [
+      "a332f801-44a5-4dc2-a56c-df159064688b",
+      "oscillator7"
+    ],
+    [
+      "b61d1a59-db3c-43e8-9c4b-a1aed9a540d7",
+      "oscillator6"
+    ],
+    [
+      "169822b1-13ef-486a-9cc0-eb0631435b43",
+      "oscillator8"
+    ],
+    [
+      "b015f3af-1769-4aa6-83f1-3ff952fbeadb",
+      "oscillator9"
+    ],
+    [
+      "955589c1-7d2c-4d89-bb7b-3da944ad2450",
+      "oscillator18"
+    ],
+    [
+      "8627ac13-4609-4ea9-ba5f-46786016931a",
+      "oscillator19"
+    ],
+    [
+      "f90ca1ad-1904-40c7-9e5f-9aa1d450887f",
+      "oscillator11"
+    ],
+    [
+      "8668bf34-e3fd-420e-a8b0-ae6a4694ef6f",
+      "oscillator10"
+    ],
+    [
+      "7fa036d6-0eb1-418b-bdb2-ab92179efa97",
+      "oscillator16"
+    ],
+    [
+      "e6a9718d-5f00-4d33-a701-3aefb17f2f68",
+      "oscillator17"
+    ],
+    [
+      "28ef1454-827c-46fe-9ac7-bbeaac092543",
+      "oscillator15"
+    ],
+    [
+      "c938fc5a-2788-408b-9074-af58b12709be",
+      "oscillator14"
+    ],
+    [
+      "14f614d7-514d-49e7-a3e0-3c5bafdce9b6",
+      "oscillator13"
+    ],
+    [
+      "4cf53618-b0b7-4c36-9d64-99a0ff824e94",
+      "oscillator12"
+    ],
+    [
+      "13ddd7b5-2163-41ee-a7b3-2ac77063f8cf",
+      "oscillator21"
+    ],
+    [
+      "87f8307f-8777-4fde-996f-6ca91af9e893",
+      "oscillator29"
+    ],
+    [
+      "d9f64b3d-5fee-42b8-ba61-48d6437a7655",
+      "oscillator23"
+    ],
+    [
+      "fba8be32-f313-4bcb-951a-be86ba723c52",
+      "oscillator25"
+    ],
+    [
+      "540f724c-bda2-434e-9d3c-9f8b17b19c88",
+      "oscillator26"
+    ],
+    [
+      "7a252558-5cc9-4229-9a72-81ce83451c85",
+      "oscillator39"
+    ],
+    [
+      "9be25a60-3ab8-43b5-b97b-95090542ff95",
+      "oscillator35"
+    ],
+    [
+      "b84f77a9-bb87-4f24-84ef-3eb84176c8e4",
+      "oscillator32"
+    ],
+    [
+      "daa93be6-e55e-4f5f-93cc-90bd116ba5f9",
+      "oscillator36"
+    ],
+    [
+      "6ff8008f-a19b-4478-bb94-41f71de245f8",
+      "oscillator30"
+    ],
+    [
+      "776ca769-7236-4f9c-9ab3-d6001bea8b96",
+      "oscillator20"
+    ],
+    [
+      "c1149819-7968-4a4f-8631-f1d51ca41ff7",
+      "oscillator28"
+    ],
+    [
+      "7771e2bf-cdb4-4402-877c-00cc3a2345b7",
+      "oscillator22"
+    ],
+    [
+      "a924dfb3-e7ff-4d4e-96ad-80a248737ed4",
+      "oscillator24"
+    ],
+    [
+      "5a2245ea-4570-45a9-b3e4-6bc4defcfe8f",
+      "oscillator27"
+    ],
+    [
+      "a0a8caf8-a3d6-4b47-93eb-a1804b6e7c7b",
+      "oscillator38"
+    ],
+    [
+      "2dc8403d-ff6e-4bec-8c7e-3ed478ed415b",
+      "oscillator34"
+    ],
+    [
+      "c1b1ca52-20b8-4526-a92e-8f1f0a281ffb",
+      "oscillator33"
+    ],
+    [
+      "965a14f3-9547-462d-9bc7-77d152e0e9cd",
+      "oscillator37"
+    ],
+    [
+      "716b03ef-a53f-4472-a28d-e48c6e1aadad",
+      "oscillator31"
+    ],
+    [
+      "5b72f864-e84f-4cce-9280-564dc1519458",
+      "oscillator77"
+    ],
+    [
+      "db338926-4bcc-4331-8d40-51f2bd6fd694",
+      "oscillator79"
+    ],
+    [
+      "60b8f415-2acf-4cd7-8657-60ca44e1e576",
+      "oscillator69"
+    ],
+    [
+      "b3f0a7c2-9640-4ed3-9be3-58ed65fe4963",
+      "oscillator65"
+    ],
+    [
+      "583428a4-1875-4732-9c87-c904111fe9b4",
+      "oscillator66"
+    ],
+    [
+      "ff06f518-b87c-4a18-8f97-1e61bda24f50",
+      "oscillator55"
+    ],
+    [
+      "ad7dbd45-9e8a-4370-96a1-b17b02e9a6aa",
+      "oscillator59"
+    ],
+    [
+      "214e937e-1977-4b4c-8133-75051dc5ebef",
+      "oscillator48"
+    ],
+    [
+      "c1c33a6a-87c4-4b63-bd24-8d3ec3a7bf6f",
+      "oscillator50"
+    ],
+    [
+      "920bf591-1dee-4489-be80-f2e32f712e98",
+      "oscillator49"
+    ],
+    [
+      "3f3cdc5b-7759-4dda-868e-b87336fd6634",
+      "oscillator76"
+    ],
+    [
+      "269eb142-93a9-432a-b9b6-d75231ce276f",
+      "oscillator78"
+    ],
+    [
+      "53774036-6a44-4fd6-a53b-d7e92efc0fb0",
+      "oscillator68"
+    ],
+    [
+      "5e0eefb5-6d08-431b-a062-08279dd96c9b",
+      "oscillator64"
+    ],
+    [
+      "8f8a99e8-0102-4658-93aa-b3eb67b1db9f",
+      "oscillator61"
+    ],
+    [
+      "3e1ba4a0-d0f2-4a03-b1ff-08c325963c36",
+      "oscillator54"
+    ],
+    [
+      "758aec9d-d928-4036-bb20-095bdc1b3ec3",
+      "oscillator58"
+    ],
+    [
+      "ef1a9b0e-e254-4f0a-a3ea-7b0162f82547",
+      "oscillator57"
+    ],
+    [
+      "78237878-b65a-41f5-832f-34a852921dd7",
+      "oscillator51"
+    ],
+    [
+      "d6bac307-ea9e-467f-9385-cacff67e8feb",
+      "oscillator52"
+    ],
+    [
+      "43bdba2e-4475-4b28-af54-266d48f9b6e5",
+      "oscillator72"
+    ],
+    [
+      "30612759-ec9d-47ec-b91c-7f4ee13a9a52",
+      "oscillator74"
+    ],
+    [
+      "92fb3758-7df1-4998-8f8a-d3eceb52b953",
+      "oscillator67"
+    ],
+    [
+      "78ba69ae-6f70-487f-8851-7d3505ccf01e",
+      "oscillator62"
+    ],
+    [
+      "7417edfb-9eb6-4fb3-86ca-4d9d17b3192e",
+      "oscillator70"
+    ],
+    [
+      "1929b040-2f9e-4e86-8312-09cdb3d96768",
+      "oscillator56"
+    ],
+    [
+      "717fd9d0-c4c1-4b0d-8066-ce5c3c325b89",
+      "oscillator41"
+    ],
+    [
+      "51926b84-53c5-43cf-9222-741d822302ce",
+      "oscillator47"
+    ],
+    [
+      "8dbdb75b-c964-4e27-aa21-6349e842421a",
+      "oscillator44"
+    ],
+    [
+      "800f4392-8d50-4815-98da-9db1dc65fe05",
+      "oscillator43"
+    ],
+    [
+      "061adc03-86b1-420e-b040-80542f33b4cd",
+      "oscillator75"
+    ],
+    [
+      "93bfd326-12f9-43b5-a558-322706039e1a",
+      "oscillator73"
+    ],
+    [
+      "26d064b2-c9ce-4aee-8bba-203902aaf4fb",
+      "oscillator60"
+    ],
+    [
+      "7cb09f3a-1ff7-4c85-a014-824b8a973bb8",
+      "oscillator63"
+    ],
+    [
+      "9f959d1a-e9be-4669-a5c5-3fa733c2af5c",
+      "oscillator71"
+    ],
+    [
+      "167270c4-57de-42e1-a674-650ef3200728",
+      "oscillator53"
+    ],
+    [
+      "1d598041-9c51-4508-b262-94bb1853c2e7",
+      "oscillator40"
+    ],
+    [
+      "33b74001-a14d-4a3d-93ce-75025f9566a9",
+      "oscillator46"
+    ],
+    [
+      "f72660f2-b49f-45d0-8770-6cd52701c7e9",
+      "oscillator45"
+    ],
+    [
+      "55075ba6-1b0f-4b13-a2a1-bfe96bf50636",
+      "oscillator42"
+    ],
+    [
+      "dbb77674-42be-446c-8e77-0edf96278d45",
+      "oscillator95"
+    ],
+    [
+      "00c79660-a3fe-46b7-a14a-2961a347f824",
+      "oscillator98"
+    ],
+    [
+      "70196b67-d2aa-4665-bc6d-599bf44d45fe",
+      "oscillator94"
+    ],
+    [
+      "6b712b96-75da-4767-a12f-01e5e4cd186c",
+      "oscillator92"
+    ],
+    [
+      "a6c72e81-87d9-43d0-b069-7bd86df9ef20",
+      "oscillator81"
+    ],
+    [
+      "32df2b98-a65f-4464-afda-376c166b3896",
+      "oscillator91"
+    ],
+    [
+      "c15bf6cc-9009-4853-9e15-42e81110c765",
+      "oscillator89"
+    ],
+    [
+      "d904df0d-6fe8-424d-ba53-9d3acdf200a0",
+      "oscillator84"
+    ],
+    [
+      "586aa876-7f3f-4400-aab5-bde5a1cd3ae3",
+      "oscillator85"
+    ],
+    [
+      "05ded0df-1500-40a9-9bb9-361d4a40137a",
+      "oscillator86"
+    ],
+    [
+      "a4860e2c-34dc-4234-8f35-8c863717b8c6",
+      "oscillator96"
+    ],
+    [
+      "2ca106d1-61f3-42e9-93d2-31c70a5f2138",
+      "oscillator99"
+    ],
+    [
+      "835f39cf-02db-40de-ae81-98ce7038b170",
+      "oscillator93"
+    ],
+    [
+      "bfb7a590-1f57-4786-b87d-cc189a970775",
+      "oscillator97"
+    ],
+    [
+      "d2b9c2f7-8269-4d1e-8275-65dfe3fb0607",
+      "oscillator80"
+    ],
+    [
+      "61ea0e2a-7a8e-47ed-93a2-21b2a66b0034",
+      "oscillator90"
+    ],
+    [
+      "4bb64a1a-5d98-45db-b4fc-2a09297b9e9a",
+      "oscillator88"
+    ],
+    [
+      "9a778ee2-ed10-42ca-8f13-663321d5305b",
+      "oscillator82"
+    ],
+    [
+      "ddfa6bd8-7873-403f-bcf0-210e7e3c7cfc",
+      "oscillator83"
+    ],
+    [
+      "5acec60c-ea83-4798-9575-9f74e1fbbe0c",
+      "oscillator87"
+    ]
+  ],
   "text_variables": {}
 }
